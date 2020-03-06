@@ -145,8 +145,6 @@ class Movies extends MY_Controller {
 		$this->load->view('movies/view', $this->data);
 		$this->load->view('templates/footer');
 	}
-
-
 	
 
 }
