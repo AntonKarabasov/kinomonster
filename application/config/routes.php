@@ -54,6 +54,9 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['search'] = 'search';
+$route['search/(:any)'] = 'search/$1';
+
+$route['contact'] = 'main/contact';
 
 $route['movies/rating'] = 'movies/rating/$1';
 $route['movies/type/films'] = 'movies/type/films/$1';
@@ -72,4 +75,6 @@ $route['post/create'] = 'post/create';
 $route['post/edit'] = 'post/edit';
 $route['post/delete'] = 'post/delete';
 $route['post/(:any)'] = 'post/view/$1';
+
+
 
